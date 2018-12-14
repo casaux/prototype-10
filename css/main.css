@@ -391,3 +391,58 @@ ul li {margin-bottom:.5rem;/*font-weight: 500;*/}
 @media only screen and (max-width: 767px){
   #new-organisation .casa-card-detail .icon{height:5rem;}
 }
+
+
+
+/* mobile */
+@media only screen and  (max-width: 991px) {
+	/*.au-grid .col-xs-6{width:100%;}*/
+	.grid li div {padding:.6rem 0 0 0}
+
+	.xs-hidden{display: none!important;visibility: hidden;}
+	
+	.au-grid .col-xs-6{width:100% !important;}
+	.au-grid .col-xs-3{width:50% !important;}
+	.col-xs-9{width:100% !important;}
+	
+	 .header-row-and::after {
+  		content: "&";
+	}
+	
+	.header-row div{
+		padding-top:0 !important;
+		padding-bottom:0 !important;
+	}
+	
+	.header-row{
+		padding:0.5rem 0;
+	}
+	
+}
+
+/* tablet */
+@media only screen and  (min-width: 576px) {
+	.row.collapse .col-xs-6{width:50%;}
+	.au-grid .col-xs-3{width:25% !important;}
+	.col-xs-9{width:100% !important;}	
+	
+	
+	.header-row-and::after {
+  		content: "";
+	}
+	
+	
+}
+
+/* desktop */
+@media only screen and  (min-width: 1200px) {
+
+	.au-grid .col-xs-3{width:25% !important;}
+	.col-xs-9{width:75% !important;}
+
+	.header-row-and::after {
+  		content: "";
+	}
+}
+/*
+*/
